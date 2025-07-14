@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla Curricular – Plan 122</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Malla Curricular – Plan 122</h1>
+    <label for="ruInput">RU (Registro Universitario):</label>
+    <input id="ruInput" placeholder="p.ej. 20210423" />
+    <button id="loadBtn">Ingresar / Cambiar</button>
+  </header>
+
+  <main id="grid" class="hidden"></main>
+
+  <template id="cardTpl">
+    <div class="card pending">
+      <h3 class="name"></h3>
+      <p class="sem"></p>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
