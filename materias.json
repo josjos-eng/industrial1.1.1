@@ -1,0 +1,20 @@
+[
+  {"codigo":"QG","nombre":"QUIMICA GENERAL","semestre":1,"prerreq":[]},
+  {"codigo":"FB1","nombre":"FISICA BASICA I","semestre":1,"prerreq":[]},
+  {"codigo":"DT1","nombre":"DIBUJO TECNICO I","semestre":1,"prerreq":[]},
+  {"codigo":"C1","nombre":"CALCULO I","semestre":1,"prerreq":[]},
+  {"codigo":"A1","nombre":"ALGEBRA I","semestre":1,"prerreq":[]},
+  {"codigo":"QO","nombre":"QUIMICA ORGANICA","semestre":2,"prerreq":["QG"]},
+  {"codigo":"FB2","nombre":"FISICA BASICA II","semestre":2,"prerreq":["C1","FB1"]},
+  {"codigo":"INF1","nombre":"INFORMATICA I","semestre":2,"prerreq":["DT1"]},
+  {"codigo":"C2","nombre":"CALCULO II","semestre":2,"prerreq":["C1"]},
+  {"codigo":"A2","nombre":"ALGEBRA II","semestre":2,"prerreq":["A1"]},
+  {"codigo":"ECG","nombre":"ECONOMIA GENERAL","semestre":2,"prerreq":["A1"]},
+  {"codigo":"FQ","nombre":"FISICOQUIMICA","semestre":3,"prerreq":["QO","FB2"]},
+  {"codigo":"FB3","nombre":"FISICA BASICA III","semestre":3,"prerreq":["FB2","C2"]},
+  {"codigo":"CMAT","nombre":"CIENCIAS DE LOS MATERIALES","semestre":3,"prerreq":["INF1"]},
+  {"codigo":"ED","nombre":"ECUACIONES DIFERENCIALES","semestre":3,"prerreq":["C2"]},
+  {"codigo":"PE","nombre":"PROBABILIDAD Y ESTADISTICA","semestre":3,"prerreq":["A2"]},
+  {"codigo":"CI","nombre":"CONTABILIDAD INDUSTRIAL","semestre":3,"prerreq":["ECG"]},
+  {"codigo":"TT","nombre":"TERMODINAMICA TECNICA","semestre":4,"prerreq":["FQ"]}
+  /* …continúa hasta 10º semestre… */
